@@ -1,0 +1,35 @@
+enum Placement{
+INTERNSHIP,
+FULLTIME
+}
+
+enum Stage{
+NOTSTARTED,
+STARTED,
+ONGOING,
+COMPLETED,
+SELECTED,
+REJECTEDBYME,
+NOOFFERRECEIVED,
+NOTSELECTED
+}
+
+entity Company{
+companyName String,
+startDate Instant,
+endDate Instant,
+companyDetails String,
+placementType Placement,
+salaryPackage String,
+stage Stage
+}
+
+entity Round{
+startDate Instant,
+endDate Instant,
+duration Duration,
+skillsRequired String,
+link String
+}
+
+service all with serviceImpl 
