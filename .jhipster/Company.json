@@ -1,0 +1,46 @@
+{
+  "name": "Company",
+  "fields": [
+    {
+      "fieldName": "companyName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "companyDetails",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "placementType",
+      "fieldType": "Placement",
+      "fieldValues": "INTERNSHIP,FULLTIME"
+    },
+    {
+      "fieldName": "salaryPackage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "stage",
+      "fieldType": "Stage",
+      "fieldValues": "NOTSTARTED,STARTED,ONGOING,COMPLETED,SELECTED,REJECTEDBYME,NOOFFERRECEIVED,NOTSELECTED"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "company",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210821014541"
+}

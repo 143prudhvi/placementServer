@@ -43,7 +43,9 @@
     "devServerPort": 9060,
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Company", "Round"],
+    "lastLiquibaseTimestamp": 1629510342000
   },
   "git-provider": "GitHub",
   "git-company": "143prudhvi",

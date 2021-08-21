@@ -48,6 +48,8 @@ public class CacheConfiguration {
             createCache(cm, com.teja.app.domain.User.class.getName());
             createCache(cm, com.teja.app.domain.Authority.class.getName());
             createCache(cm, com.teja.app.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.teja.app.domain.Company.class.getName());
+            createCache(cm, com.teja.app.domain.Round.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
